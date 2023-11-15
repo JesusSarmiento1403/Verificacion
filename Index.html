@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de cuenta</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #688EEA;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .message-container {
+            background: linear-gradient(45deg, #FFD700 30%, #4169E1 70%);
+            color: #333;
+            padding: 60px; /* Aumentado el padding para hacerlo más grande */
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px; /* Aumentado el ancho máximo */
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .success-message {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .sub-message {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .custom-image {
+            width: 100%;
+           /* max-height: 150px;*/
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <img class="custom-image" src="Imagenes/logo-social.png" alt="Imagen de verificación"> <!-- Reemplaza "tu-imagen.jpg" con la ruta de tu imagen -->
+        <p class="success-message">Felicidades, tu cuenta ha sido verificada.</p>
+        <p class="sub-message">¡Gracias por ser parte de nuestra comunidad!</p>
+    </div>
+</body>
+</html>
